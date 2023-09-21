@@ -1,0 +1,88 @@
+.header {}
+
+.header-navigation {
+
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+
+.header-logo {
+    color:  #2E2F42;
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+}
+
+.header-menu {}
+
+.header-menu-item {}
+
+.header-menu-link {
+    color:  #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+}
+
+.Contact-bl {}
+
+.Contact-link {
+        color:  #434455;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.50;
+        letter-spacing: 0.02em;
+}
+
+.hero {
+    background:  #2E2F42;
+    width: 1440px;
+    height: 600px;
+     flex-shrink: 0;
+}
+
+.hero-lile {
+        color:  #FFF;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+}
+
+.hero-bye-btn {
+    border-radius: 4px;
+        background: #4D5AE5;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.features- {}
+
+.visualli-hidden {}
+
+.features-list {}
+
+.features-item {}
+
+.features-subtitle {
+        color:  #2E2F42;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.20;
+        letter-spacing: 0.02em;
+}
+
+.features-item-text {
+        color:  #434455;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.50;
+        letter-spacing: 0.02em;
+}
