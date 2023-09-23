@@ -3,10 +3,10 @@
 .header-navigation {
 
 }
-ul {
+.list {
     list-style: none;
 }
-a {
+.link {
     text-decoration: none;
 }
 
@@ -18,6 +18,9 @@ a {
         font-weight: 700;
         line-height: 1.16;
         letter-spacing: 0.03em;
+}
+.header-logo span {
+    color: #4D5AE5;
 }
 
 .header-menu {}
@@ -41,16 +44,16 @@ a {
         line-height: 1.50;
         letter-spacing: 0.02em;
 }
-
+/** ========== HERO =========== */
 .hero {
     background:  #2E2F42;
     width: 1440px;
     height: 600px;
-     flex-shrink: 0;
 }
 
 .hero-lile {
         color:  #FFF;
+        text-align: center;
         font-size: 56px;
         font-weight: 700;
         line-height: 1.07;
@@ -61,7 +64,18 @@ a {
     border-radius: 4px;
         background: #4D5AE5;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        color: #FFF;
+
+            
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1.50;
+            letter-spacing: 0.04em;
 }
+
+/* ========================= */
+/** ========== FEATURES=========== */
 
 .features- {}
 
@@ -81,6 +95,120 @@ a {
 
 .features-item-text {
         color:  #434455;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.50;
+        letter-spacing: 0.02em;
+}
+/* ========================= */
+/** ========== TASTE =========== */
+
+.taste {
+    background:  #F4F4FD;
+}
+
+.taste-title {
+    color:  #2E2F42;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+}
+
+.tastle-list {}
+
+.list {}
+
+.taste-item {}
+
+.taste-img {}
+
+.taste-subtitle {
+        color: #2E2F42;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.20;
+        letter-spacing: 0.02em;
+}
+.taste-text {
+    color: #434455;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+}
+
+/* ========================= */
+/** ========== PORTFOLIO =========== */
+
+.portfolio {
+    background: #FFF;
+}
+.portfolio-title {
+        color: #2E2F42;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1,11;
+        letter-spacing: 0.02em;
+}
+
+.portfolio-list {}
+
+.list {}
+
+.portfolio-item {}
+
+.portfolio-img {}
+
+.portfolio-subtitle {
+        color: #2E2F42;
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.20;
+        letter-spacing: 0.02em;
+}
+
+.portfolio-text {
+        color: #434455;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.50;
+        letter-spacing: 0.02em;
+}
+
+/* ========================= */
+/** ========== FOOTER =========== */
+
+.footer {
+    background:#2E2F42;
+}
+
+.footer-logo {
+        color: #F4F4FD;
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+    }
+    
+    .footer-logo span {
+        color: #4D5AE5;
+}
+
+.footer-text {
+    color:  #F4F4FD;
+        font-family: Roboto;
         font-size: 16px;
         font-weight: 400;
         line-height: 1.50;
