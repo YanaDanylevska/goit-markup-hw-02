@@ -1,3 +1,8 @@
+.body {
+    border-bottom:  #E7E9FC;
+        background:  #FFF;
+        font-family: "Roboto" sans-serif;
+}
 .header {}
 
 .header-navigation {
@@ -13,11 +18,14 @@
 
 .header-logo {
     color:  #2E2F42;
-        font-family: Raleway;
+        font-family: "Raleway" sans-serif;
         font-size: 18px;
         font-weight: 700;
-        line-height: 1.16;
+        line-height: 1.17;
         letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4D5AE5;
+        
 }
 .header-logo span {
     color: #4D5AE5;
@@ -66,8 +74,7 @@
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
         color: #FFF;
 
-            
-            font-family: Roboto;
+            font-family: "Roboto" sans-serif;
             font-size: 16px;
             font-weight: 500;
             line-height: 1.50;
@@ -115,9 +122,12 @@
         font-weight: 700;
         line-height: 1.11;
         letter-spacing: 0.02em;
+        text-transform: capitalize;
 }
 
-.tastle-list {}
+.tastle-list {
+    background: #FFF;
+}
 
 .list {}
 
@@ -153,6 +163,7 @@
 .portfolio-title {
         color: #2E2F42;
         text-align: center;
+        text-transform: capitalize;
         font-family: Roboto;
         font-size: 36px;
         font-weight: 700;
