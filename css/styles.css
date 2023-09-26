@@ -18,18 +18,16 @@
 
 
 .header-logo {
-    color:  #2E2F42;
+    color: #4D5AE5;
         font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-weight: 700;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        
+        line-height: 1.16;
+        letter-spacing: 0.54px;
         
 }
 .header-logo span {
-    color: #4D5AE5;
+    color: #2e2f42;
 }
 
 .header-menu {}
@@ -44,10 +42,12 @@
     letter-spacing: 0.02em;
 }
 
-.Contact-bl {}
+.Contacts-bl {}
 
-.Contact-link {
+
+.Contacts-link {
         color:  #434455;
+        font-style: normal;
         font-size: 16px;
         font-weight: 400;
         line-height: 1.50;
@@ -72,8 +72,9 @@
         background: #4D5AE5;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
         color: #FFF;
-
-            font-family: "Roboto" sans-serif;
+            cursor: pointer;
+            background-color: #404BBF;
+            font-family: "Roboto", sans-serif;
             font-size: 16px;
             font-weight: 500;
             line-height: 1.50;
@@ -203,16 +204,17 @@
 }
 
 .footer-logo {
-        color: #F4F4FD;
-        font-family: Raleway;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 1.16;
-        letter-spacing: 0.03em;
+        color: #4D5AE5;
+        font-family: "Raleway", sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 1.16;
+            letter-spacing: 0.54px;
+            text-transform: uppercase;
     }
     
     .footer-logo span {
-        color: #4D5AE5;
+        color: #F4F4FD;
 }
 
 .footer-text {
