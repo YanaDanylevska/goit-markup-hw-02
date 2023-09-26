@@ -1,5 +1,5 @@
 .body {
-        font-family: "Roboto", sans-serif;
+        font-family: 'Roboto', sans-serif;
         color: #434455;
         background-color: #FFFFFF;
 
@@ -30,7 +30,7 @@
         text-transform: uppercase;
         
 }
-.color {
+.first-logo{
     color: #2e2f42;
 }
 
@@ -245,7 +245,7 @@
             text-transform: uppercase;
     }
     
-    .color {
+    .first-logo {
         color: #F4F4FD;
 }
 
