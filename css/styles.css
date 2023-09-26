@@ -1,9 +1,12 @@
 .body {
-        font-family: "Roboto" sans-serif;
+        font-family: "Roboto", sans-serif;
         color: #434455;
         background-color: #FFFFFF;
 
 }
+
+/** ========== HEADER =========== */
+
 .header {}
 
 .header-navigation {
@@ -32,7 +35,9 @@
 
 .header-menu {}
 
-.header-menu-item {}
+.header-menu-item {
+    
+}
 
 .header-menu-link {
     color:  #2E2F42;
@@ -41,8 +46,20 @@
     line-height: 1.50;
     letter-spacing: 0.02em;
 }
+.header-menu-link:hover,
+.header-menu-link:focus {
+    color: #404BBF;
+    line-height: 24px;
+    letter-spacing: 0.32;
+    text-decoration: underline;
+}
 
-.Contacts-bl {}
+/* ===================== */
+/** ========== CONTACTS =========== */
+
+.Contacts-bl {
+    font-style: normal;
+}
 
 
 .Contacts-link {
@@ -53,7 +70,18 @@
         line-height: 1.50;
         letter-spacing: 0.02em;
 }
+
+.Contacts-link:hover,
+.Contacts-link:focus {
+    color: #404BBF;
+    line-height: 24px;
+    letter-spacing: 0.32;
+}
+
+
+/* ===================== */
 /** ========== HERO =========== */
+
 .hero {
     background: #2E2F42;
 }
@@ -68,17 +96,20 @@
 }
 
 .hero-bye-btn {
-    border-radius: 4px;
-        background: #4D5AE5;
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+        cursor: pointer;
+        background-color:#4D5AE5;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.50;
+        letter-spacing: 0.04em;
         color: #FFF;
-            cursor: pointer;
-            background-color: #404BBF;
-            font-family: "Roboto", sans-serif;
-            font-size: 16px;
-            font-weight: 500;
-            line-height: 1.50;
-            letter-spacing: 0.04em;
+}
+
+.hero-bye-btn:hover,
+.hero-bye-btn:focus {
+    background-color: #404BBF;
 }
 
 /* ========================= */
@@ -208,8 +239,8 @@
         font-family: "Raleway", sans-serif;
             font-size: 18px;
             font-weight: 700;
-            line-height: 1.16;
-            letter-spacing: 0.54px;
+            line-height: 1.17;
+            letter-spacing: 0.03em;
             text-transform: uppercase;
     }
     
