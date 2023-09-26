@@ -25,11 +25,12 @@
         font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-weight: 700;
-        line-height: 1.16;
+        line-height: 1.17;
         letter-spacing: 0.54px;
+        text-transform: uppercase;
         
 }
-.header-logo span {
+.color {
     color: #2e2f42;
 }
 
@@ -57,7 +58,7 @@
 /* ===================== */
 /** ========== CONTACTS =========== */
 
-.Contacts-bl {
+.Contacts {
     font-style: normal;
 }
 
@@ -244,7 +245,7 @@
             text-transform: uppercase;
     }
     
-    .footer-logo span {
+    .color {
         color: #F4F4FD;
 }
 
