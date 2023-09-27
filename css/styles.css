@@ -58,12 +58,12 @@ body {
 /* ===================== */
 /** ========== CONTACTS =========== */
 
-.Contacts {
+.сontacts {
     font-style: normal;
 }
 
 
-.Contacts-link {
+.сontacts-link {
         color:  #434455;
         font-style: normal;
         font-size: 16px;
@@ -72,8 +72,8 @@ body {
         letter-spacing: 0.02em;
 }
 
-.Contacts-link:hover,
-.Contacts-link:focus {
+.сontacts-link:hover,
+.сontacts-link:focus {
     color: #404BBF;
     line-height: 24px;
     letter-spacing: 0.32;
@@ -157,11 +157,10 @@ body {
         text-transform: capitalize;
 }
 
-.tastle-list {
-    background-color: #FFFFFF}
+.tastle-list {}
 
 .taste-item {
-    background: #F4F4FD;
+background-color: #FFFFFF;
 
 }
 .taste-img {}
