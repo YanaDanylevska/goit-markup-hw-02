@@ -1,4 +1,4 @@
-.body {
+body {
         font-family: 'Roboto', sans-serif;
         color: #434455;
         background-color: #FFFFFF;
@@ -158,7 +158,7 @@
 }
 
 .tastle-list {
-    background:#FFF;}
+    background-color: #FFFFFF}
 
 .taste-item {
     background: #F4F4FD;
