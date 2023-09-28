@@ -60,7 +60,7 @@ a {
 /* ===================== */
 /** ========== CONTACTS =========== */
 
-.contacts {
+.сontacts {
     font-style: normal;
 }
 
@@ -74,7 +74,7 @@ a {
         letter-spacing: 0.02em;
 }
 
-.сontacts-link:hover,
+.contacts-link:hover,
 .сontacts-link:focus {
     color: #404BBF;
     line-height: 24px;
