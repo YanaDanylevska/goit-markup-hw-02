@@ -15,7 +15,7 @@ body {
 .list {
     list-style: none;
 }
-.link {
+a {
     text-decoration: none;
 }
 .ul {
