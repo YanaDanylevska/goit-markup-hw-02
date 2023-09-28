@@ -18,7 +18,9 @@ body {
 .link {
     text-decoration: none;
 }
-
+.ul {
+    list-style-type: none;
+}
 
 .header-logo {
     color: #4D5AE5;
