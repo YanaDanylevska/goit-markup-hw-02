@@ -52,9 +52,7 @@ a {
 .header-menu-link:hover,
 .header-menu-link:focus {
     color: #404BBF;
-    line-height: 24px;
-    letter-spacing: 0.32;
-    text-decoration: underline;
+
 }
 
 /* ===================== */
@@ -77,8 +75,7 @@ a {
 .contacts-link:hover,
 .contacts-link:focus {
     color: #404BBF;
-    line-height: 24px;
-    letter-spacing: 0.32;
+    
 }
 
 
@@ -199,7 +196,7 @@ background-color: #FFFFFF;
        
         font-size: 36px;
         font-weight: 700;
-        line-height: 1,11;
+        line-height: 1.11;
         letter-spacing: 0.02em;
 }
 
